@@ -50,7 +50,7 @@ body {
 
 .resume_wrapper .resume_left .resume_image {
   width: 100%;  
-  background-color: #47a8dc;
+  background-color: #26252d;
 }
 
 .resume_wrapper .resume_left .resume_image img {
@@ -58,6 +58,15 @@ body {
   border-color: #26252d;
   display: block;
 }
+
+.resume_image img {
+  /* border-radius: 50%; */
+  width: 250px;
+  height: 285px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
 
 .resume_wrapper .resume_title {
   color: #fff;
@@ -73,7 +82,7 @@ body {
 }
 
 .resume_wrapper .resume_left .resume_bottom {
-  padding: 20px 20px;
+  padding: 20px 24px;
 }
 
 .resume_wrapper .resume_item {
